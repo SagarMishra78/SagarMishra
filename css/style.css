@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(/img/bg-login.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container h1 {
+  font-family: "Heebo", sans-serif;
+  width: 100%;
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 15px;
+  padding: 13px 0;
+}
+.container {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+.box {
+  width: 100%;
+  margin: 10px 0px;
+}
+.box input {
+  background: none;
+  width: 75%;
+  margin: 4px;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.box i {
+  width: 25px;
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin: 12px 0;
+  padding: 10px 21px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  color: purple;
+  background: white;
+}
